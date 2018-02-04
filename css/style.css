@@ -1,0 +1,40 @@
+/* Universal Styles */
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin-top: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  width: 100%;
+  justify-content: center;
+}
+
+header
+.branding {
+  height: 32px;
+  margin: 12px 24px;
+
+}
+
+header
+span {
+  font-weight: 400;
+
+}
