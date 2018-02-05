@@ -33,7 +33,7 @@ h3 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: darkgrey;
+  color: rgb(60, 60, 60);
   font-size: 1rem;
 }
 
@@ -135,34 +135,37 @@ img {
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
   width: 40%;
+  margin-top: 1rem;
 }
 
 .row {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-right: 24px;
   border-bottom: 4px solid rgba(60, 60, 60, 0.1);
 }
 
-.row
-img {
-  display: inline-block;
+.info
+.thumbnail {
   height: auto;
-  width: 80%;
-  padding: 32px;
+  max-width: 35%;
+  padding: 16px;
+}
+
+.thumbnail
+img {
+  width: 100%;
+  height: auto;
+  padding-top: 4px;
 }
 
 .row
 .caption {
-  display: block;
+  display: inline-block;
   width: 65%;
-  line-height: 1.5rem;
+  line-height: 1rem;
+  padding-left: 1rem;
 }
-
 
 /* Start Learning */
 .start {
