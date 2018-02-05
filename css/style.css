@@ -23,7 +23,16 @@ h1 {
   line-height: 3.3rem;
 }
 
-p {
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: rgb(60, 60, 60);
+  font-size: 2.3rem;
+  margin-bottom: 0;
+  line-height: 3.3rem;
+}
+
+h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: rgb(60, 60, 60);
@@ -71,6 +80,7 @@ a {
 
 #content {
   display: flex;
+  flex-direction: column;
   padding-top: 64px;
 }
 
@@ -85,6 +95,7 @@ a {
 .bannerimage {
   width: 60%;
   margin: 32px 24px;
+  overflow: hidden;
 }
 
 .bannerimage
@@ -98,7 +109,7 @@ img {
   flex-direction: column;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .text .button  {
@@ -113,4 +124,56 @@ img {
 
 .text .button:hover {
   background-color: darkgrey;
+}
+
+/* Practice */
+
+.practice {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imageblock {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 32px 24px;
+  overflow: hidden;
+}
+
+.studying
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.practice
+.info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.info
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.thumbnail
+img {
+  display: flex;
+  align-content: flex-end;
+  height: auto;
+  width: 35%;
+
+}
+
+.meta {
+  width: 65%;
 }
