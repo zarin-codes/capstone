@@ -8,10 +8,11 @@ a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  color: rgb(60, 179, 113);
 }
 
 a:hover {
-  color: rgb(60, 179, 113);
+  color: darkgrey;
 }
 
 h1,
@@ -73,12 +74,6 @@ header {
 .desktop
 a {
   margin-right: 16px;
-  color: black;
-}
-
-.desktop
-a:hover {
-  color: rgb(60, 179, 113);
 }
 
 /* Content */
@@ -173,15 +168,6 @@ img {
   padding-left: 1rem;
 }
 
-.row
-a {
-  color: rgb(60, 179, 113);
-}
-
-.row
-a:hover {
-  color: darkgrey;
-}
 
 /* Start Learning */
 .start {
