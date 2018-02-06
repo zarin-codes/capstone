@@ -144,7 +144,6 @@ img {
 .info {
   width: 40%;
   margin-top: 1rem;
-
 }
 
 .row {
@@ -172,6 +171,16 @@ img {
   width: 65%;
   line-height: 1rem;
   padding-left: 1rem;
+}
+
+.row
+a {
+  color: rgb(60, 179, 113);
+}
+
+.row
+a:hover {
+  color: darkgrey;
 }
 
 /* Start Learning */
