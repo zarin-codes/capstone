@@ -27,15 +27,18 @@ h3 {
   color: rgb(60, 60, 60);
   font-weight: 600;
   margin: 0;
-
-
 }
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: rgb(60, 60, 60);
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+hr {
+  margin-right: 24px;
 }
 
 
@@ -90,7 +93,6 @@ a {
 }
 
 .imagecontainer {
-  display: inline-block;
   width: 60%;
   margin: 32px 24px;
 }
@@ -137,7 +139,7 @@ img {
 .info {
   width: 40%;
   margin-top: 1rem;
-  padding-bottom: 32px;
+
 }
 
 .row {
@@ -201,6 +203,48 @@ img {
   padding: 8px 24px 16px;
   width: 70%;
 }
+
+/* Thesis */
+.thesis {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.thumbnail
+img {
+  width: 100%;
+  height: auto;
+  padding-top: 4px;
+}
+
+.row
+.caption {
+  display: inline-block;
+  width: 65%;
+  line-height: 1rem;
+  padding-left: 1rem;
+}
+
+.videocontainer {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Footer */
 footer {
