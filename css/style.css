@@ -76,6 +76,11 @@ a {
   color: black;
 }
 
+.desktop
+a:hover {
+  color: rgb(60, 179, 113);
+}
+
 /* Content */
 
 #content {
